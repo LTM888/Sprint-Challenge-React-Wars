@@ -8,7 +8,7 @@ const character = props => {
         
             <div className='charaterInfo'>
                 <div><strong>Birthyear:</strong> {props.character.birth_year}</div>
-                <div><strong>Gender:</strong> {props.character.birth_gender}</div>
+                <div><strong>Gender:</strong> {props.character.gender}</div>
                 <div><strong>Height:</strong> {props.character.height}</div>
                 <div><strong>Mass:</strong> {props.character.mass}</div>
                 <div><strong>Hair Color:</strong> {props.character.hair_color}</div>
